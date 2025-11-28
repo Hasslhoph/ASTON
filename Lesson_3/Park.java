@@ -45,10 +45,10 @@ public class Park {
     }
 
     public void printParkInfo() {
-        System.out.println("=== ПАРК '" + parkName + "' ===");
+        System.out.println("ПАРК: " + parkName);
         System.out.println("Местоположение: " + location);
         System.out.println("Количество аттракционов: " + attractions.length);
-        System.out.println("------------------------");
+        System.out.println("-----------------------");
 
         for (int i = 0; i < attractions.length; i++) {
             System.out.println("Аттракцион " + (i + 1) + ":");
